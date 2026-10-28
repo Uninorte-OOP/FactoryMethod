@@ -20,4 +20,9 @@ public class SeaTransport implements Transport {
         System.out.println("Estimated time calculation for sea");
     }
     
+    @Override
+    public void packaging() {
+        System.out.println("Packaging for sea transport");
+    }
+    
 }

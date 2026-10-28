@@ -20,4 +20,9 @@ public class LandTransport implements Transport {
         System.out.println("Estimated time calculation for land");
     }
     
+    @Override
+    public void packaging() {
+        System.out.println("Packaging for land transport");
+    }
+    
 }

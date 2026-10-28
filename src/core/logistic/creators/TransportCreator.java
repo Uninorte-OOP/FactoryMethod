@@ -12,12 +12,13 @@ import core.logistic.products.Transport;
  */
 public abstract class TransportCreator {
     
-    public abstract Transport createTransport();
+    public abstract Transport createTransport();    // Factory method
     
     public void executeCalculation() {
         Transport transport = createTransport();
         transport.calculateCost();
         transport.calculateEstimatedTime();
+        transport.packaging();
     }
     
 }

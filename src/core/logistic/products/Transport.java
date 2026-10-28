@@ -12,5 +12,6 @@ public interface Transport {
     
     public abstract void calculateCost();
     public abstract void calculateEstimatedTime();
+    public abstract void packaging();
     
 }

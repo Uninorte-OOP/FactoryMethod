@@ -19,5 +19,10 @@ public class AirTransport implements Transport {
     public void calculateEstimatedTime() {
         System.out.println("Estimated time calculation for air");
     }
+
+    @Override
+    public void packaging() {
+        System.out.println("Packaging for air transport");
+    }
     
 }

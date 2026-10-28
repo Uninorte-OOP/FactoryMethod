@@ -20,4 +20,9 @@ public class RailTransport implements Transport {
         System.out.println("Estimated time calculation for rail");
     }
     
+    @Override
+    public void packaging() {
+        System.out.println("Packaging for rail transport");
+    }
+    
 }
